@@ -114,6 +114,7 @@ h1 {
 }
 
 .invitation-paper {
+  position: relative;
   width: min(90vw, calc((100svh - 6rem) * 1.347));
   max-width: 70rem;
   overflow: hidden;
@@ -123,6 +124,19 @@ h1 {
 }
 
 .invitation-paper img { display: block; width: 100%; height: auto; }
+
+.website-link {
+  position: absolute;
+  top: 82.5%;
+  left: 31%;
+  width: 38%;
+  height: 6%;
+}
+
+.website-link:focus-visible {
+  outline: 2px solid var(--gold);
+  outline-offset: 0.25rem;
+}
 
 .replay-button {
   position: absolute;
